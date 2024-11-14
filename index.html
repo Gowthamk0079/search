@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><b>Image Search Engine</b></h1>
+        <p><b>Search amazing images with just a words!</b></p>
+    </header>
+    <main>
+        <div class="input-area">
+            <input type="text" id="prompt" placeholder="Enter your prompt...">
+            <button onclick="generateImage()">Generate</button>
+        </div>
+        <div id="loading" class="loading">
+            <span class="loader"></span>
+            <p id="progress-text">Searching for you... 0%</p>
+        </div>
+        <div id="image-display"></div>
+    </main>
+    <footer>
+        <!-- <h2><b>Created by Suthakar, Gowtham, Subash</b></h2>4 -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
